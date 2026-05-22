@@ -10,6 +10,14 @@
 *.userosscache
 *.sln.docstates
 
+# Ігноруємо всі appsettings з середовищами
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+
+# Ігноруємо secrets.json
+secrets.json
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
